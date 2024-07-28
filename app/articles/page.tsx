@@ -33,16 +33,18 @@ export default function Component() {
         <main>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing2.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+            <Link href="/articles/2">
+                <Image
+                  src="/landing2.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The Significance of Umra
+                  <Link href="/articles/1">The Significance of Umra</Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Umra is a voluntary pilgrimage to Mecca that can be performed
@@ -61,16 +63,18 @@ export default function Component() {
               </div>
             </article>
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing3.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+            <Link href="/articles/2">
+                <Image
+                  src="/landing3.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The Pilgrimage of Hajj
+                  <Link href="/articles/2">The Pilgrimage of Hajj</Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Hajj is the annual Islamic pilgrimage to Mecca, the holiest
@@ -88,16 +92,20 @@ export default function Component() {
               </div>
             </article>
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+            <Link href="/articles/2">
+                <Image
+                  src="/landing.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The Spiritual Significance of Umra and Hajj
+                  <Link href="/articles/2">
+                    The Spiritual Significance of Umra and Hajj
+                  </Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Umra and Hajj are not just physical journeys, but also deeply
@@ -115,16 +123,20 @@ export default function Component() {
               </div>
             </article>
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+            <Link href="/articles/2">
+                <Image
+                  src="/landing.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The Rituals and Practices of Umra and Hajj
+                  <Link href="/articles/3">
+                    The Rituals and Practices of Umra and Hajj
+                  </Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Umra and Hajj involve a series of rituals and practices that
@@ -143,16 +155,20 @@ export default function Component() {
               </div>
             </article>
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+            <Link href="/articles/2">
+                <Image
+                  src="/landing.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The History and Origins of Umra and Hajj
+                  <Link href="/articles/2">
+                    The History and Origins of Umra and Hajj
+                  </Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Umra and Hajj have a rich history that dates back to the time
@@ -171,16 +187,20 @@ export default function Component() {
               </div>
             </article>
             <article className="group rounded-lg border bg-background shadow-sm transition-all hover:border-accent hover:shadow-md">
-              <Image
-                src="/landing.jpg"
-                width={300}
-                height={200}
-                alt="Article Image"
-                className="h-[200px] w-full rounded-t-lg object-cover"
-              />
+              <Link href="/articles/2">
+                <Image
+                  src="/landing.jpg"
+                  width={300}
+                  height={200}
+                  alt="Article Image"
+                  className="h-[200px] w-full rounded-t-lg object-cover"
+                />
+              </Link>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent">
-                  The Spiritual and Personal Benefits of Umra and Hajj
+                  <Link href="/articles/2">
+                    The Spiritual and Personal Benefits of Umra and Hajj
+                  </Link>
                 </h3>
                 <p className="mt-2 text-muted-foreground line-clamp-3">
                   Performing Umra and Hajj can have profound spiritual and

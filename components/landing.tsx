@@ -38,7 +38,7 @@ export default function landing() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="/articles"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
@@ -91,7 +91,9 @@ export default function landing() {
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <Button size="lg" className="w-full sm:w-auto">
+                  <Link href="/articles" >
                   Explore Hajj
+                  </Link>
                 </Button>
                 <Button
                   variant="outline"

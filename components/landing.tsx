@@ -44,21 +44,13 @@ export default function landing() {
           >
             About Hajj
           </Link>
-          {/* <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Schedule
-          </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Tours
-          </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Prayer Times
-          </Link> */}
+
           <Link
-            href="#"
+            href="/courses"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
-            Map
+            Courses
           </Link>
           <Link
             href="#"
@@ -101,6 +93,13 @@ export default function landing() {
                   className="w-full sm:w-auto"
                 >
                   <Link href="https://hickmet.kz/">Find Tours</Link>
+                </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="w-full sm:w-auto"
+                >
+                  <Link href="/courses">Courses</Link>
                 </Button>
               </div>
             </div>
